@@ -1,0 +1,16 @@
+# Macro file for CZTSpectrumTail
+# 
+# Can be run in batch, without graphic
+# or interactively: Idle> /control/execute run1.mac
+#
+# Set the number of threads to be the number of available logical cores
+#/run/useMaximumLogicalCores
+#
+# Initialize kernel
+/run/initialize
+#
+/gps/particle gamma
+/gps/direction 0 0 1
+/gps/pos/centre 0 0 -3 mm
+/gps/ene/mono 661.657 keV
+/run/beamOn 20

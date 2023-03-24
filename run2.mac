@@ -1,0 +1,12 @@
+# Macro file for CZTSpectrumTail
+# 
+# To be run preferably in batch, without graphics:
+# % .\CZTSpectrumTail run2.mac
+#
+#/run/useMaximumLogicalCores
+/run/initialize
+/gps/particle gamma
+/gps/direction 0 0 1
+/gps/pos/centre 0 0 -3 mm
+/gps/ene/mono 661.657 keV
+/run/beamOn 40000
